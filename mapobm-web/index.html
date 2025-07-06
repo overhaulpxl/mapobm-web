@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mandalawangi Outbound offers exceptional outdoor experiences in Cianjur with programs for adventure, team building, and more." />
+    <meta name="keywords" content="Outbound Training, Team Building, Camping, Adventure Games, Cianjur" />
+    <meta name="author" content="Ismail" />
+    <meta property="og:title" content="Mandalawangi Outbound" />
+    <meta property="og:description" content="Discover top-notch outdoor experiences with Mandalawangi Outbound in Cianjur. From adventure games to team building and camping, we have it all!" />
+    <meta property="og:image" content="assets/img/hero-bg.jpg" />
+    <meta property="og:url" content="https://www.mandalawangi-outbound.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <title>Mandalawangi Outbound</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="box-navbar">
+                    <div class="logo">
+                        <img src="assets/img/logo.png" alt="Mandalawangi Outbound Logo" style="height: 120px; width: auto; padding: 15px;" />
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars menu-bar" aria-label="Menu"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Welcome to Mandalawangi Outbound</h1>
+                    <button onclick="scrollToAbout()">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us -->
+    <div class="about fade-in" id="about">
+        <div class="container">
+            <div class="box-about">
+                <h1>About Us</h1>
+                <p>Since 2009, Mandalawangi Outbound has been at the forefront of delivering exceptional outdoor experiences in Kabupaten Cianjur. We specialize in organizing comprehensive event programs that combine adventure, team building, and fun. Whether you’re looking for corporate training, adventure games, or a serene camping experience, our well-crafted activities are designed to strengthen bonds, challenge limits, and create lasting memories.</p>
+                <p>At Mandalawangi Outbound, we pride ourselves on creating tailor-made programs that cater to diverse groups and objectives. Our team of experienced facilitators and guides ensures that every activity is both safe and enjoyable, offering you the best in outdoor event management.</p>
+            </div>
+        </div>
+    </div>
+    <!-- About Us -->
+
+    <!-- Our Services -->
+    <div class="services fade-in" id="services">
+        <div class="container">
+            <h1>Our Services</h1>
+            <div class="box-services">
+                <div class="box">
+                    <i class="fa-solid fa-users"></i>
+                    <h4>Outbound Training</h4>
+                    <p>Enhance team cohesion and leadership skills with our engaging outbound training sessions.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h4>Team Building</h4>
+                    <p>Foster collaboration and communication through dynamic team-building exercises.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-campground"></i>
+                    <h4>Camping</h4>
+                    <p>Experience the beauty of nature with our well-organized camping adventures.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h4>Adventure Games</h4>
+                    <p>Challenge yourself with exciting and adrenaline-pumping adventure games.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Services -->
+
+    <!-- Gallery -->
+    <div class="gallery fade-in" id="gallery">
+        <div class="container">
+            <h1>Gallery</h1>
+            <div class="gallery-carousel">
+                <button class="carousel-btn prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="carousel-track">
+                    <div class="carousel-item active">
+                        <div class="carousel-img-group">
+                            <div>
+                                <img src="assets/img/gallery1.jpg" alt="Gallery Image 1">
+                                <p>Our exciting outbound training sessions that foster team spirit and leadership skills.</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/gallery2.jpg" alt="Gallery Image 2">
+                                <p>Team-building activities designed to enhance collaboration and communication.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img-group">
+                            <div>
+                                <img src="assets/img/gallery3.jpg" alt="Gallery Image 3">
+                                <p>Camping adventures that offer a perfect escape into nature's beauty.</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/gallery4.jpg" alt="Gallery Image 4">
+                                <p>Thrilling adventure games that challenge and excite participants.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+            </div>
+            <div class="gallery-see-all-wrapper" style="text-align:center; margin-top:20px;">
+                <button class="gallery-see-all-btn">Lihat Semua Galeri</button>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Modal Popup -->
+    <div class="gallery-modal" id="galleryModal" style="display:none;">
+        <div class="gallery-modal-content">
+            <span class="gallery-modal-close">&times;</span>
+            <h2>Semua Galeri</h2>
+            <div class="gallery-modal-grid">
+                <div><img src="assets/img/gallery1.jpg" alt="Gallery Image 1"><p>Our exciting outbound training sessions that foster team spirit and leadership skills.</p></div>
+                <div><img src="assets/img/gallery2.jpg" alt="Gallery Image 2"><p>Team-building activities designed to enhance collaboration and communication.</p></div>
+                <div><img src="assets/img/gallery3.jpg" alt="Gallery Image 3"><p>Camping adventures that offer a perfect escape into nature's beauty.</p></div>
+                <div><img src="assets/img/gallery4.jpg" alt="Gallery Image 4"><p>Thrilling adventure games that challenge and excite participants.</p></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery Modal Popup -->
+    <!-- Lightbox Popup for Full Image -->
+    <div class="gallery-lightbox" id="galleryLightbox" style="display:none;">
+        <div class="gallery-lightbox-content">
+            <span class="gallery-lightbox-close">&times;</span>
+            <img src="" alt="Full Gallery" id="galleryLightboxImg">
+        </div>
+    </div>
+    <!-- End Lightbox Popup -->
+
+    <!-- Contact Us -->
+    <div class="contact fade-in" id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="box-services">
+                <div class="box">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h4>WhatsApp</h4>
+                    <p><a href="https://wa.me/6285863003053" target="_blank">+62 858-6300-3053</a> (Ismail)</p>
+                    <p><a href="https://wa.me/6287820425607" target="_blank">+62 878-2042-5607</a> (Ismail)</p>
+                    <p><a href="https://wa.me/6285793719676" target="_blank">+62 857-9371-9676</a> (Zaidaan)</p>
+                </div>
+                <div class="box">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h4>Instagram</h4>
+                    <p><a href="https://www.instagram.com/mandalawangioutbound._/" target="_blank">@mandalawangioutbound._</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="box-footer">
+                <div class="box">
+                </div>
+                <div class="box">
+                </div>
+            </div>
+            <p>© 2024 Mandalawangi Outbound. All Rights Reserved.</p>
+        </div> 
+    </div> 
+    <!-- Footer -->
+
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" aria-label="Scroll to Top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <!-- Scroll to Top Button -->
+
+    <!-- Loading Animation -->
+    <div class="loading" aria-label="Loading"></div>
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
